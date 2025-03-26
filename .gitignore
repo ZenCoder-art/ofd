@@ -1,0 +1,70 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Package distribution
+dist/
+build/
+*.egg-info/
+
+# Dependency directories
+node_modules/
+
+# PyInstaller
+*.spec
+
+# pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# mypy
+.mypy_cache/
+
+# Flake8
+.flake8
+
+# Pyre type checker
+.pyre/
+
+# temp
+tmp/
+temp/
+
+# test
+
+test/
+tests/
+
