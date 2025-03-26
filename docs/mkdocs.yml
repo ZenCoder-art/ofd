@@ -1,0 +1,48 @@
+site_name: 在线招聘欺诈检测
+theme:
+  name: material
+  lang: zh
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+site_author: "周伟诺"
+site_description: "基于模型融合的在线招聘欺诈检测"
+repo_name: FakeJobDetection
+repo_url: https://github.com/ZenCoder-art/FakeJobDetection
+nav:
+  - Introduction: index.md
+  - Get Started:
+      - 快速开始: Home/quick.md
+      - 环境配置: Home/install.md
+      - 数据描述: data/info.md
+  - About: about.md
+extra:
+  version: 1.0
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/astral-sh/uv
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/astral-sh
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:weinuozhou@outlook.com
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/astral_sh
+markdown_extensions:
+  toc:
+    permalink: true
+  admonition: {}
