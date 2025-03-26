@@ -1,0 +1,27 @@
+[project]
+name = "ORFD"
+version = "0.1.0"
+description = "Detecting Online Recruitment Fraud Using Mode Fusion Techniques"
+readme = "README.md"
+authors = ["weinuozhou <weinuozhou@outlook.com>"]
+requires-python = ">=3.10"
+dependencies = [
+    "category-encoders>=2.8.0",
+    "fastapi[standard]>=0.115.8",
+    "itsdangerous>=2.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "notebook>=7.3.2",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "pip>=24.3.1",
+    "pyarrow>=19.0.0",
+    "pydantic-settings>=2.8.1",
+    "scienceplots>=2.1.1",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "setuptools>=75.8.0",
+    "shutup>=0.2.0",
+    "spacy>=3.8.4",
+    "tqdm>=4.67.1",
+]
