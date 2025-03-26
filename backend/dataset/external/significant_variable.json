@@ -1,0 +1,37 @@
+{
+    "missing": {
+        "significant": [
+            "employment_type",
+            "industry",
+            "requirements",
+            "department",
+            "telecommuting",
+            "has_company_logo",
+            "has_questions",
+            "location",
+            "required_experience",
+            "required_education",
+            "salary_range",
+            "function",
+            "benefits",
+            "company_profile"
+        ],
+        "not-significant": [
+            "description"
+        ]
+    },
+    "category": {
+        "significant": [
+            "required_experience",
+            "employment_type",
+            "industry",
+            "required_education",
+            "requirements",
+            "department",
+            "telecommuting",
+            "has_company_logo",
+            "has_questions",
+            "location"
+        ]
+    }
+}
