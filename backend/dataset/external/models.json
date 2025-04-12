@@ -1,0 +1,13 @@
+{
+    "SGDClassifier": "sgdc",
+    "DecisionTreeClassifier": "tree",
+    "LogisticRegression": "lr",
+    "KNeighborsClassifier": "knc",
+    "SVC": "svc",
+    "RandomForestClassifier": "rf",
+    "AdaBoostClassifier": "abc",
+    "GradientBoostingClassifier": "gbc",
+    "BaggingClassifier": "bc",
+    "XGBClassifier": "xgb",
+    "MLPClassifier": "mlpc"
+}
