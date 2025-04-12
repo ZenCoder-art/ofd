@@ -1,3 +1,10 @@
+# 在线招聘欺诈检测
+
+This is my code repository for my thesis project, which is titled "Detecting Online Recruitment Fraud Using Model Fusion Techniques".
+
+文档说明：
+
+## 项目简介
 ## 数据分析
 
 ### 数据源分析
