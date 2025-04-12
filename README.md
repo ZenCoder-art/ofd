@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ZenCoder-art/ofd/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+
 # 在线招聘欺诈检测
 
 This is my code repository for my thesis project, which is titled "Detecting Online Recruitment Fraud Using Model Fusion Techniques".
@@ -7,6 +10,14 @@ This is my code repository for my thesis project, which is titled "Detecting Onl
 ## 项目简介
 
 本项目旨在利用模型融合技术，对在线招聘欺诈进行检测。通过对大量的招聘广告进行分析，我们可以发现招聘广告中存在着大量的虚假信息，这些虚假信息可能会误导招聘者，从而影响招聘者的招聘决策。因此，我们需要开发一种有效的方法来检测招聘广告中的虚假信息，从而提高招聘的准确性和可信度。
+
+## 安装与部署
+
+```bash
+git clone https://github.com/ZenCoder-art/ofd.git
+cd ofd
+pip install -r requirements.txt
+```
 
 ### 数据源分析
 
@@ -74,3 +85,7 @@ graph TB;
     C3 --> D1[数据预处理]
     D1 --> E5[检验训练好的融合模型]
 ```
+
+## LICENSE
+
+[license](https://github.com/ZenCoder-art/ofd?tab=MIT-1-ov-file)
