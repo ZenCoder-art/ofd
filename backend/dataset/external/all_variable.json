@@ -1,0 +1,49 @@
+{
+    "id": "job_id",
+    "category": [
+        "location",
+        "industry",
+        "department",
+        "function",
+        "telecommuting",
+        "has_company_logo",
+        "has_questions"
+    ],
+    "order": [
+        "required_experience",
+        "required_education",
+        "employment_type"
+    ],
+    "text": [
+        "title",
+        "description",
+        "requirements",
+        "company_profile",
+        "benefits"
+    ],
+    "quantity": [
+        "salary_range"
+    ],
+    "vars": [
+        "required_experience",
+        "employment_type",
+        "industry",
+        "required_education",
+        "requirements",
+        "department",
+        "telecommuting",
+        "has_company_logo",
+        "has_questions"
+    ],
+    "significant": [
+        "required_experience",
+        "employment_type",
+        "industry",
+        "required_education",
+        "requirements",
+        "department",
+        "telecommuting",
+        "has_company_logo",
+        "has_questions"
+    ]
+}

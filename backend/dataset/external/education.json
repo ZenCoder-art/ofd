@@ -1,0 +1,15 @@
+{
+    "bachelors degree": "bachelor and above",
+    "masters degree": "bachelor and above",
+    "doctorate": "bachelor and above",
+    "high school or equivalent": "high school and below",
+    "some high school coursework": "high school and below",
+    "vocational hs diploma": "high school and below",
+    "vocational degree": "high school and below",
+    "some college coursework completed": "associate technical",
+    "associate degree": "associate technical",
+    "certification": "associate technical",
+    "vocational": "associate technical",
+    "unspecified": "unspecified",
+    "professional": "professional certificate"
+}

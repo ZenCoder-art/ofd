@@ -1,0 +1,90 @@
+{
+    "energy": [
+        "oil & energy",
+        "utilities"
+    ],
+    "materials": [
+        "mining & metals",
+        "building materials",
+        "plastics",
+        "chemicals"
+    ],
+    "industrials": [
+        "automotive",
+        "construction",
+        "transportation/trucking/railroad",
+        "aerospace & defense",
+        "industrial automation",
+        "packaging and containers"
+    ],
+    "consumer discretionary": [
+        "retail",
+        "apparel & fashion",
+        "consumer electronics",
+        "consumer goods",
+        "automotive",
+        "leisure, travel & tourism",
+        "restaurants",
+        "hospitality"
+    ],
+    "consumer staples": [
+        "food & beverages",
+        "cosmetics",
+        "health, wellness and fitness",
+        "food production",
+        "gambling & casinos"
+    ],
+    "health care": [
+        "healthcare",
+        "medical devices",
+        "biotechnology",
+        "pharmaceuticals",
+        "veterinary",
+        "mental health care",
+        "medical practice",
+        "health, wellness and fitness"
+    ],
+    "financials": [
+        "finance",
+        "banking",
+        "insurance",
+        "investment banking",
+        "venture capital & private equity",
+        "financial services"
+    ],
+    "information technology": [
+        "information technology and services",
+        "internet",
+        "online media",
+        "computer software",
+        "it",
+        "computer hardware",
+        "telecommunications",
+        "computer networking",
+        "security and investigations"
+    ],
+    "communication services": [
+        "broadcast media",
+        "media production",
+        "public relations and communications",
+        "telecommunications"
+    ],
+    "utilities": [
+        "electric utilities",
+        "environmental services",
+        "water utilities"
+    ],
+    "real estate": [
+        "real estate",
+        "commercial real estate",
+        "real estate investment trusts (reits)"
+    ],
+    "materials and other": [
+        "nonprofit organization management",
+        "professional training & coaching",
+        "legal services",
+        "construction",
+        "design",
+        "staffing and recruiting"
+    ]
+}
