@@ -1,10 +1,7 @@
 import importlib
 import pkgutil
 
-import shutup
 from app import app
-
-shutup.please()
 
 
 def load_routers(package_name: str):

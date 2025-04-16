@@ -16,7 +16,7 @@ class Config(BaseSettings):
     APIKEY: str = "yunzhi"
     # 项目信息
     VERSION: str = "1.0.0"
-    PROJECT_NAME: str = "基于多模型融合的在线招聘欺诈检测"
+    PROJECT_NAME: str = "基于模型融合的在线招聘欺诈检测"
     DESCRIPTION: str = (
         '接口详细文档可以参考:<a href="/redoc" target="_blank">redoc</a><br/>接口JSON文档可以参考:<a href="/openapi.json" target="_blank">openapi</a>'
     )
