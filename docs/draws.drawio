@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="n_QjgTPouVcJsAAmtt_L" name="Page-1">
+        <mxGraphModel dx="696" dy="563" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="TP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECECFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="FN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECECFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="FP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECECFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TN" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ECECFF;fillColor=#ECECFF;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Actual&amp;nbsp;Positive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="245" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Predicted&amp;nbsp;Positive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="188" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Predicted&amp;nbsp;Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="188" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Actual Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="358" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

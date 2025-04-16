@@ -1,7 +1,7 @@
+# 在线招聘欺诈检测
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ZenCoder-art/ofd/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-
-# 在线招聘欺诈检测
 
 This is my code repository for my thesis project, which is titled "Detecting Online Recruitment Fraud Using Model Fusion Techniques".
 
@@ -11,19 +11,53 @@ This is my code repository for my thesis project, which is titled "Detecting Onl
 
 本项目旨在利用模型融合技术，对在线招聘欺诈进行检测。通过对大量的招聘广告进行分析，我们可以发现招聘广告中存在着大量的虚假信息，这些虚假信息可能会误导招聘者，从而影响招聘者的招聘决策。因此，我们需要开发一种有效的方法来检测招聘广告中的虚假信息，从而提高招聘的准确性和可信度。
 
-## 安装与部署
-
-```bash
-git clone https://github.com/ZenCoder-art/ofd.git
-cd ofd
-pip install -r requirements.txt
-```
-
-### 数据源分析
+## 数据源分析
 
 本项目的数据集来源于公开数据集[fake-job-postings](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)、[FakePostings](https://www.kaggle.com/datasets/srisaisuhassanisetty/fake-job-postings)与[origin.csv](https://github.com/freekatz/ORFD/blob/master/orfd/Core/dataset/origin.csv)
 
-## 技术路线图
+## 工具与技术
+
+### 后端
+
+- 语言: Python 3.10+
+- 数据处理: pandas, numpy, jieba
+- 可视化: matplotlib, seaborn, scienceplots
+- 机器学习: scikit-learn
+- 后端部署: FastAPI, Uvicorn
+- 模型融合: Voting, Stacking
+
+### 其他工具
+
+- mermaid
+- VSCode
+- Jupyter NoteBook
+
+## 项目结构
+
+```text
+ofd/
+├── backend/              # ✅ FastAPI 后端服务代码
+│   ├── main.py           # FastAPI 启动入口
+│   ├── notebooks         # 模型训练笔记本
+│   └── app               # 应用层
+│       ├── api           # API 层
+│       ├── models        # 模型层
+│       ├── schemas       # 数据模型
+│       └── utils         # 工具类
+|       └── service       # 服务层
+|       └── config.py     # 应用配置
+│
+├── frontend/             # ✅ 前端页面(目前只用vue做了脚手架，待完善)
+│
+├── docs/                 # ✅ 项目文档（使用 Docsify）
+├── paper/                # ✅ 论文或研究报告相关材料
+├── LICENSE               # 📄 开源协议（MIT）
+├── README.md             # 📘 项目说明文档
+├── .gitignore            # 🚫 Git 忽略规则
+└── .gitattributes        # ⚙️ Git 属性配置
+```
+
+## 🔍 技术流程图
 
 ```mermaid
 graph TB;
@@ -86,6 +120,6 @@ graph TB;
     D1 --> E5[检验训练好的融合模型]
 ```
 
-## LICENSE
+## 📄LICENSE
 
-[license](https://github.com/ZenCoder-art/ofd?tab=MIT-1-ov-file)
+本项目采用[MIT License](https://github.com/ZenCoder-art/ofd?tab=MIT-1-ov-file)
