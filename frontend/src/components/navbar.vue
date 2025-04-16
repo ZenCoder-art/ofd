@@ -15,7 +15,7 @@
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <span class="logo-text">AI<span class="logo-highlight">Platform</span></span>
+                        <span class="logo-text"><span class="logo-highlight">Platform</span></span>
                     </div>
                     <div class="desktop-menu">
                         <a v-for="(item, index) in navItems" :key="index" :href="item.path" class="nav-link"
@@ -27,10 +27,6 @@
                 </div>
 
                 <div class="navbar-right">
-                    <button class="action-button">
-                        <span>登录</span>
-                    </button>
-
                     <div class="mobile-menu-button">
                         <button @click="toggleMenu" type="button" class="menu-toggle" aria-controls="mobile-menu"
                             :aria-expanded="isOpen">

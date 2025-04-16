@@ -1,13 +1,11 @@
 <template>
     <div class="home-container">
-        <!-- Background elements -->
         <div class="bg-shape bg-shape-1"></div>
         <div class="bg-shape bg-shape-2"></div>
         <div class="bg-shape bg-shape-3"></div>
         <div class="bg-shape bg-shape-4"></div>
         <div class="bg-shape bg-shape-5"></div>
 
-        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
                 <h1 class="title">
@@ -17,7 +15,7 @@
                 <p class="subtitle">保护求职者权益，识别虚假招聘信息，让求职更安心</p>
                 <div class="cta-buttons">
                     <button class="primary-button">
-                        <span>立即检测</span>
+                        <a href="/testing-center" target="_self"><span>立即检测</span></a>
                         <svg class="button-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.75 6.75L19.25 12L13.75 17.25" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />

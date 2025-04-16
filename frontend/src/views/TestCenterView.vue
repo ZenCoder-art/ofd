@@ -498,9 +498,21 @@ const detectionResults = reactive({
     ]
 });
 
-const submitManualDetection = () => {
-    console.log('Manual detection submitted:', manualForm);
-    showResults.value = true;
+const submitManualDetection = async () => {
+    const response = await fetch("http://localhost:8000/model/predict?model_name=stacking", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(manualForm)
+    });
+
+    if (!response.ok) {
+        throw new Error("请求失败");
+    }
+
+    const result = await response.json();
+    console.log("检测结果：", result);
 };
 
 const submitFileDetection = () => {
