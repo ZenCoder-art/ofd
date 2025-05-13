@@ -15,7 +15,9 @@ This is my code repository for my thesis project, which is titled "Detecting Onl
 
 ```bash
 git clone https://github.com/ZenCoder-art/ofd.git
-cd ofd
+cd ofd/backend
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
